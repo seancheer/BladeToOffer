@@ -6,6 +6,15 @@
 #include "count_how_many_1_in_integer.h"
 #include "implement_pow_function.h"
 #include "print_1_to_n.h"
+#include "remove_node_in_o_1.h"
+#include "find_index_node_cout_backwards.h"
+#include "find_middle_node_in_linked_list.h"
+#include "is_linked_list_circle.h"
+#include "reverse_linked_list.h"
+#include "is_tree_contains_another_tree.h"
+#include "print_image_of_tree.h"
+#include "print_metrics_clockwise.h"
+#include "stack_with_min.h"
 void test_binary_tree();
 
 int main()
@@ -17,7 +26,16 @@ int main()
 	//start_find_min_value();
 	//start_count();
 	//start_pow();
-	start_print();
+	//start_print();
+	//start_remove();
+	//start_find_node_cout_backwards();
+	//start_find_middle_node_in_list();
+	//start_tell_list_is_circle();
+	//start_reverse_linked_list();
+	//start_is_tree_contains_another();
+	//start_print_image_of_tree();
+	//start_print_metrics();
+	start_test_stack_with_min();
 	system("pause");
 	return 0;
 }

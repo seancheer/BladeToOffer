@@ -32,10 +32,12 @@ BinaryTree* malloc_item(int value);
 
 BinaryTree* binary_tree_remove(BinaryTree* node, int value);
 
-BinaryTree* find_value(BinaryTree* node, int value);
+BinaryTree* binary_tree_find_value(BinaryTree* node, int value);
 
 BinaryTree* find_deepest_left(BinaryTree* node);
 
 BinaryTree* find_deepest_right(BinaryTree* node);
+
+void empty_binary_tree(BinaryTree* root);
 
 void print_tree_hierachy(BinaryTree* node);

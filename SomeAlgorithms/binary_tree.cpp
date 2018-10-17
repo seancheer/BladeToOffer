@@ -101,7 +101,7 @@ BinaryTree* binary_tree_remove(BinaryTree* node, int value)
 /************************************************************************/
 /* 查找一项
 /************************************************************************/
-BinaryTree* find_value(BinaryTree* node, int value)
+BinaryTree* binary_tree_find_value(BinaryTree* node, int value)
 {
 	while (node != NULL)
 	{
@@ -217,4 +217,20 @@ const char* get_string_by_type(enum Node_Type& type)
 		return "UNKNOWN";
 	}
 
+}
+
+/************************************************************************/
+/* 清空一个二叉树
+/************************************************************************/
+void empty_binary_tree(BinaryTree* root)
+{
+	if (NULL == root)
+	{
+		return;
+	}
+
+	empty_binary_tree(root->left_child);
+	empty_binary_tree(root->right_child);
+	free(root);
+	root = NULL;
 }
