@@ -8,6 +8,13 @@ void swap(int* left, int* right)
 	*right = tmp;
 }
 
+void swap(char* left, char* right)
+{
+	char tmp = *left;
+	*left = *right;
+	*right = tmp;
+}
+
 /**
 /* double数值的比较运算，由于计算机表示double有误差，所以需要这么做
 */

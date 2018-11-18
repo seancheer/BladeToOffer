@@ -44,6 +44,7 @@ LinkedList* malloc_linked_list(int value)
 	memset(node, 0, sizeof(LinkedList));
 	node->value = value;
 	node->next = NULL;
+	node->sibling = NULL;
 	return node;
 }
 
@@ -155,6 +156,28 @@ void linked_list_print(LinkedList* header)
 }
 
 
+
+/************************************************************************/
+/* 打印链表，并且把sibling打印出来
+/************************************************************************/
+void linked_list_print_with_sibling(LinkedList* header)
+{
+	if (NULL == header)
+	{
+		puts("Empty list!");
+		return;
+	}
+
+	puts("***************************************************************************************");
+	LinkedList* cur = header;
+	while (NULL != cur)
+	{
+		printf("%d(%d)\t", cur->value, cur->sibling == NULL ? -99999 : cur->sibling->value);
+		cur = cur->next;
+	}
+	printf("\n");
+	puts("***************************************************************************************");
+}
 
 /************************************************************************/
 /* 获得链表的尾端

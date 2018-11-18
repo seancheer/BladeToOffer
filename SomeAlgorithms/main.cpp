@@ -15,8 +15,20 @@
 #include "print_image_of_tree.h"
 #include "print_metrics_clockwise.h"
 #include "stack_with_min.h"
+#include "is_pop_sequence_adapter_to_push_in_stack.h"
+#include "is_sequence_bin_tree_postorder.h"
+#include "find_tree_path_equals_sum.h"
+#include "clone_complicated_linked_list.h"
+#include "convert_tree_to_double_list.h"
+#include "print_all_arragement_of_string.h"
+#include "print_all_combination_of_string.h"
+#include "eight_queen.h"
+#include "more_than_half_in_arr.h"
+#include "smallest_k_num.h"
+#include "maxinum_sub_arr.h"
+#include "count_1_in_arr.h"
+#include "change_arr_to_smallest_num.h"
 void test_binary_tree();
-
 int main()
 {
 	//start_find_value();
@@ -35,7 +47,20 @@ int main()
 	//start_is_tree_contains_another();
 	//start_print_image_of_tree();
 	//start_print_metrics();
-	start_test_stack_with_min();
+	//start_test_stack_with_min();
+	//start_pop_and_push_sequence_in_stack();
+	//start_is_postorder();
+	//start_print_all_path_equals_to_sum();
+	//start_clone_complicated_list();
+	//start_convert_binary_tree_to_list();
+	//start_print_all_arragement();
+	//start_print_all_combination();
+	//start_eight_queen();
+	//start_more_than_half();
+	//start_find_smallest_k_num();
+	//start_find_max_sub();
+	//start_count_1();
+	start_change_arr_to_smallest();
 	system("pause");
 	return 0;
 }

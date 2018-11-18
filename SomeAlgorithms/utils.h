@@ -5,4 +5,6 @@
 
 void swap(int* left, int* right);
 
+void swap(char* left, char* right);
+
 bool equals_double(double left, double right);

@@ -3,61 +3,49 @@
 /* 算法中的用到的链表
 /************************************************************************/
 #include "common.h"
-typedef struct S_MY_LINKED_LIST LinkedList;
+typedef struct S_MY_DOUBLE_LINKED_LIST DoubleLinkedList;
 
-struct S_MY_LINKED_LIST
+struct S_MY_DOUBLE_LINKED_LIST
 {
 	int value;
-	LinkedList *next;
-	//为复杂链表准备的节点，一般用不到
-	LinkedList *sibling;
+	DoubleLinkedList *next;
+	DoubleLinkedList *parent;
 };
 
 /************************************************************************/
 /* 初始化一个链表
 /************************************************************************/
-LinkedList* init_linked_list(int header);
+DoubleLinkedList* double_list_init(int header);
 
 /************************************************************************/
 /* 在链表末尾增加一个
 /************************************************************************/
-void append_value(LinkedList* header, int value);
+void double_list_append_value(DoubleLinkedList* header, int value);
 
 /************************************************************************/
 /* 根据value malloc一个节点
 /************************************************************************/
-LinkedList* malloc_linked_list(int value);
-
-/************************************************************************/
-/* 获得链表的尾端
-/************************************************************************/
-LinkedList* get_tail_of_list(LinkedList* header);
+DoubleLinkedList* double_list_malloc(int value);
 
 /************************************************************************/
 /* 清空一个链表
 /************************************************************************/
-void empty_linked_list(LinkedList* header);
-
-/************************************************************************/
-/* 清空一个链表，需要传入尾部，为了能够正确的清空环形链表
-/************************************************************************/
-void empty_linked_list_with_tail(LinkedList* header, LinkedList* tail);
+void double_list_empty(DoubleLinkedList* header);
 
 
 /************************************************************************/
 /* 获取最后一个节点
 /************************************************************************/
-LinkedList* linked_list_get_last_node(LinkedList* header);
+DoubleLinkedList* double_list_get_last_node(DoubleLinkedList* header);
 
 /************************************************************************/
 /* 获取指定index的节点
 /************************************************************************/
-LinkedList* linked_list_get_node_by_index(LinkedList* header, int index);
-
-void linked_list_print(LinkedList* header);
+DoubleLinkedList* double_list_get_node_by_index(DoubleLinkedList* header, int index);
 
 
 /************************************************************************/
-/* 打印链表，并且把sibling打印出来
+/* 从头到尾打印双向链表
 /************************************************************************/
-void linked_list_print_with_sibling(LinkedList* header);
+void double_list_print(DoubleLinkedList* header);
+
