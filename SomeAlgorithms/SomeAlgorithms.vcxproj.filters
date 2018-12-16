@@ -120,6 +120,18 @@
     <ClCompile Include="change_arr_to_smallest_num.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="print_1500_ugly_number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="print_first_char_occur_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="find_reverse_order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="find_common_node_in_linked_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
@@ -222,6 +234,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="change_arr_to_smallest_num.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="print_1500_ugly_number.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="print_first_char_occur_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="find_reverse_order.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="find_common_node_in_linked_list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -28,6 +28,10 @@
 #include "maxinum_sub_arr.h"
 #include "count_1_in_arr.h"
 #include "change_arr_to_smallest_num.h"
+#include "print_1500_ugly_number.h"
+#include "print_first_char_occur_1.h"
+#include "find_reverse_order.h"
+#include "find_common_node_in_linked_list.h"
 void test_binary_tree();
 int main()
 {
@@ -60,7 +64,11 @@ int main()
 	//start_find_smallest_k_num();
 	//start_find_max_sub();
 	//start_count_1();
-	start_change_arr_to_smallest();
+	//start_change_arr_to_smallest();
+	//start_print_1500_ugly_number();
+	//start_print_first_char();
+	start_print_reverse_order();
+	//start_find_common_node();
 	system("pause");
 	return 0;
 }
