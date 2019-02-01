@@ -121,8 +121,11 @@
     <ClCompile Include="convert_tree_to_double_list.cpp" />
     <ClCompile Include="count_1_in_arr.cpp" />
     <ClCompile Include="count_how_many_1_in_integer.cpp" />
+    <ClCompile Include="count_num_times_in_sorted_arr.cpp" />
     <ClCompile Include="double_linked_list.cpp" />
+    <ClCompile Include="dynamic_programming.cpp" />
     <ClCompile Include="eight_queen.cpp" />
+    <ClCompile Include="find_1_times_num_in_arr.cpp" />
     <ClCompile Include="find_common_node_in_linked_list.cpp" />
     <ClCompile Include="find_index_node_cout_backwards.cpp" />
     <ClCompile Include="find_middle_node_in_linked_list.cpp" />
@@ -130,8 +133,10 @@
     <ClCompile Include="find_reverse_order.cpp" />
     <ClCompile Include="find_tree_path_equals_sum.cpp" />
     <ClCompile Include="find_value_in_two_array.cpp" />
+    <ClCompile Include="get_depth_of_binary_tree.cpp" />
     <ClCompile Include="implement_pow_function.cpp" />
     <ClCompile Include="implement_queue_by_stack.cpp" />
+    <ClCompile Include="is_a_valid_avl.cpp" />
     <ClCompile Include="is_linked_list_circle.cpp" />
     <ClCompile Include="is_pop_sequence_adapter_to_push_in_stack.cpp" />
     <ClCompile Include="is_sequence_bin_tree_postorder.cpp" />
@@ -162,8 +167,11 @@
     <ClInclude Include="common.h" />
     <ClInclude Include="count_1_in_arr.h" />
     <ClInclude Include="count_how_many_1_in_integer.h" />
+    <ClInclude Include="count_num_times_in_sorted_arr.h" />
     <ClInclude Include="double_linked_list.h" />
+    <ClInclude Include="dynamic_programming.h" />
     <ClInclude Include="eight_queen.h" />
+    <ClInclude Include="find_1_times_num_in_arr.h" />
     <ClInclude Include="find_common_node_in_linked_list.h" />
     <ClInclude Include="find_index_node_cout_backwards.h" />
     <ClInclude Include="find_middle_node_in_linked_list.h" />
@@ -171,8 +179,10 @@
     <ClInclude Include="find_reverse_order.h" />
     <ClInclude Include="find_tree_path_equals_sum.h" />
     <ClInclude Include="find_value_in_two_array.h" />
+    <ClInclude Include="get_depth_of_binary_tree.h" />
     <ClInclude Include="implement_pow_function.h" />
     <ClInclude Include="implement_queue_by_stack.h" />
+    <ClInclude Include="is_a_valid_avl.h" />
     <ClInclude Include="is_linked_list_circle.h" />
     <ClInclude Include="is_pop_sequence_adapter_to_push_in_stack.h" />
     <ClInclude Include="is_sequence_bin_tree_postorder.h" />

@@ -58,6 +58,7 @@ void print_string_internal(char* str, char* p_begin)
 			*cur = *p_begin;
 			*p_begin = tmp;
 
+			//注意，这里是p_begin + 1，继续把剩下的字符串按照该递归的逻辑进行处理
 			print_string_internal(str, p_begin + 1);
 
 			//restore string

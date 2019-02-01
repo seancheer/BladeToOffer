@@ -132,6 +132,21 @@
     <ClCompile Include="find_common_node_in_linked_list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="count_num_times_in_sorted_arr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_depth_of_binary_tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="is_a_valid_avl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="find_1_times_num_in_arr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic_programming.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
@@ -246,6 +261,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="find_common_node_in_linked_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="count_num_times_in_sorted_arr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="get_depth_of_binary_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="is_a_valid_avl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="find_1_times_num_in_arr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic_programming.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

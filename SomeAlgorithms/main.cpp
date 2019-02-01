@@ -32,6 +32,11 @@
 #include "print_first_char_occur_1.h"
 #include "find_reverse_order.h"
 #include "find_common_node_in_linked_list.h"
+#include "count_num_times_in_sorted_arr.h"
+#include "get_depth_of_binary_tree.h"
+#include "is_a_valid_avl.h"
+#include "find_1_times_num_in_arr.h"
+#include "dynamic_programming.h"
 void test_binary_tree();
 int main()
 {
@@ -67,8 +72,13 @@ int main()
 	//start_change_arr_to_smallest();
 	//start_print_1500_ugly_number();
 	//start_print_first_char();
-	start_print_reverse_order();
+	//start_print_reverse_order();
 	//start_find_common_node();
+	//start_count_num_times();
+	//start_get_depth_of_tree();
+	//start_valid_avl();
+	//start_find_1_times_num();
+	start_dynamic_programming();
 	system("pause");
 	return 0;
 }
